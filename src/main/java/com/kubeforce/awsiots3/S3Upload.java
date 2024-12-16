@@ -1,8 +1,5 @@
 package com.kubeforce.awsiots3;
-import java.io.IOException;
-import com.amazonaws.auth.AWSCredentials;
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
+import java.io.IOException; 
 
 import software.amazon.awssdk.core.sync.RequestBody;
 import software.amazon.awssdk.regions.Region;
@@ -18,9 +15,7 @@ import software.amazon.awssdk.services.s3.S3Client;
 
 
 public class S3Upload {
-
-
-
+        
      public String S3upload(String payload) {
          //set-up the client
          Region region = Region.US_WEST_2;
